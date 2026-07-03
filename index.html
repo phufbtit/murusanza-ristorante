@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murusanza | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1 class="logo"><a href="index.html">Murusanza</a></h1>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active-link">Home</a>
+                <a href="menu/menu.html" class="nav-link">Menù</a>
+                <a href="chi-siamo/chi-siamo.html" class="nav-link">Chi siamo</a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileNavPanel">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <nav class="mobile-nav-panel" id="mobileNavPanel">
+        <a href="index.html" class="mobile-nav-link active-link">Home</a>
+        <a href="menu/menu.html" class="mobile-nav-link">Menù</a>
+        <a href="chi-siamo/chi-siamo.html" class="mobile-nav-link">Chi siamo</a>
+    </nav>
+
+    <main>
+        <section class="hero-section" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-container-flex">
+                <div class="hero-left-content">
+                    <h2 class="hero-title">Murusanza</h2>
+                    <div class="hero-divider"></div>
+                    <p class="hero-subtitle">Per una serata all'insegna del buon gusto, del buon bere e della convivialità.</p>
+
+                    <div class="cta-container">
+                        <a href="menu/menu.html" class="btn-cta btn-solid">Visualizza Menù</a>
+                        <a href="tel:3471893436" class="btn-cta btn-outline">Prenota ora 347 189 3436</a>
+                    </div>
+                </div>
+                <div class="hero-right-spacer"></div>
+            </div>
+        </section>
+
+        <section class="gallery-section" id="aspettiamo">
+            <div class="gallery-two-columns">
+
+                <div class="gallery-left-slider">
+                    <div class="slider-container">
+                        <button class="slider-btn prev-btn" id="prevBtn" aria-label="Precedente">&#10094;</button>
+
+                        <div class="slider-slides">
+                            <img class="slide active" src="immagini/piatto1.webp" alt="insalata di pesce">
+                            <img class="slide" src="immagini/piatto2.webp" alt="gamberi freschi con verdure">
+                            <img class="slide" src="immagini/piatto3.webp" alt="polpo alla griglia">
+                        </div>
+
+                        <button class="slider-btn next-btn" id="nextBtn" aria-label="Successiva">&#10095;</button>
+                    </div>
+                </div>
+
+                <div class="gallery-right-text">
+                    <h3 class="section-title">Sfiziosi piatti <span class="text-em">ti aspettano!</span></h3>
+                    <p class="section-subtitle">Ogni nostro piatto è intriso dell'amore che abbiamo per questa terra e per le sue tradizioni.
+                    Vogliamo trasmettere questa nostra passione e amore per la cucina ad ogni nostro cliente.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>© Copyright 2026 | Murusanza | Tutti i diritti riservati</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

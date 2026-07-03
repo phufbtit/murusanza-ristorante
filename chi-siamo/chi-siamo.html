@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murusanza | Chi siamo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chi-siamo.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1 class="logo"><a href="../index.html">Murusanza</a></h1>
+            <nav class="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="../menu/menu.html" class="nav-link">Menù</a>
+                <a href="chi-siamo.html" class="nav-link active-link">Chi siamo</a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileNavPanel">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <nav class="mobile-nav-panel" id="mobileNavPanel">
+        <a href="../index.html" class="mobile-nav-link">Home</a>
+        <a href="../menu/menu.html" class="mobile-nav-link">Menù</a>
+        <a href="chi-siamo.html" class="mobile-nav-link active-link">Chi siamo</a>
+    </nav>
+
+    <main>
+        <!-- ================= HERO ================= -->
+        <section class="about-hero">
+            <div class="about-hero-overlay"></div>
+            <div class="about-hero-content">
+                <h2 class="about-hero-title">Chi <span class="text-em">siamo</span></h2>
+                <p class="about-hero-subtitle">La nostra storia, la nostra passione, la nostra terra.</p>
+            </div>
+        </section>
+
+        <!-- ================= DUE COLONNE ================= -->
+        <section class="about-section">
+            <div class="about-two-columns">
+
+                <article class="about-column">
+                    <h3 class="about-column-title">Qualche parola su <span class="text-em">chi siamo</span></h3>
+                    <p class="about-column-kicker">Ci presentiamo…</p>
+
+                    <div class="about-image-frame">
+                        <img src="immagini/chi-siamo.webp" alt="Sala di Murusanza">
+                    </div>
+
+                    <p class="about-column-text">
+                        Murusanza nasce dal desiderio di offrire un luogo autentico dove il tempo rallenta,
+                        tra un calice di vino e una chiacchierata in buona compagnia.
+                    </p>
+                    <p class="about-column-text">
+                        Ogni sera raccontiamo la nostra terra attraverso i piatti che portiamo in tavola,
+                        con la stessa cura e lo stesso calore con cui si accoglie un ospite a casa propria.
+                    </p>
+                </article>
+
+                <article class="about-column">
+                    <h3 class="about-column-title">Materie prime <span class="text-em">selezionate</span></h3>
+                    <p class="about-column-kicker">Amiamo l'autenticità del gusto e la sua tipicità</p>
+
+                    <div class="about-image-frame">
+                        <img src="immagini/materie.webp" alt="Piatto preparato con materie prime selezionate">
+                    </div>
+
+                    <p class="about-column-text">
+                        Scegliamo con attenzione ogni ingrediente, privilegiando i <strong>prodotti del territorio</strong>
+                        e le lavorazioni artigianali.
+                    </p>
+                    <p class="about-column-text">
+                        Da Murusanza troverai <strong>sapori genuini</strong> e un ambiente accogliente,
+                        pensato per farti sentire a tuo agio ad ogni visita.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>© Copyright 2026 | Murusanza | Tutti i diritti riservati</p>
+    </footer>
+
+    <script src="chi-siamo.js"></script>
+</body>
+</html>

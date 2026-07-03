@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murusanza | Menù</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1 class="logo"><a href="../index.html">Murusanza</a></h1>
+            <nav class="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link active-link">Menù</a>
+                <a href="../chi-siamo/chi-siamo.html" class="nav-link">Chi siamo</a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Apri menu" aria-expanded="false" aria-controls="mobileNavPanel">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+    <nav class="mobile-nav-panel" id="mobileNavPanel">
+        <a href="../index.html" class="mobile-nav-link">Home</a>
+        <a href="menu.html" class="mobile-nav-link active-link">Menù</a>
+        <a href="../chi-siamo/chi-siamo.html" class="mobile-nav-link">Chi siamo</a>
+    </nav>
+
+    <main>
+        <!-- ================= MENU HERO ================= -->
+        <section class="menu-hero">
+            <div class="menu-hero-overlay"></div>
+            <div class="menu-hero-content">
+                <h2 class="menu-hero-title">Menù <span class="text-em">Murusanza</span></h2>
+                <p class="menu-hero-subtitle">Antipasti &middot; Primi &middot; Secondi &middot; Contorni &middot; Dessert</p>
+            </div>
+        </section>
+
+        <!-- ================= CATEGORY PILLS ================= -->
+        <nav class="category-nav" id="categoryNav" aria-label="Categorie del menù">
+            <a href="#antipasti" class="category-pill">Antipasti</a>
+            <a href="#primi" class="category-pill">Primi</a>
+            <a href="#secondi" class="category-pill">Secondi</a>
+            <a href="#contorni" class="category-pill">Contorni</a>
+            <a href="#dessert" class="category-pill">Dessert</a>
+            <a href="#info" class="category-pill">Info</a>
+        </nav>
+
+        <!-- ================= ANTIPASTI ================= -->
+        <section class="menu-section" id="antipasti">
+            <div class="menu-section-inner">
+                <h3 class="menu-badge">Antipasti</h3>
+
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Pugliese</span>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                        <p class="menu-item-desc">Capocollo Cervellera, schiacciata in crosta martinese, burratina affumicata e caciotta leccese.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Fritto misto</span>
+                            <span class="menu-item-price">10€ / 16€</span>
+                        </div>
+                        <p class="menu-item-desc">Polpette, panzerotti, pittule e patatine.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Tartare di tonno</span>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <p class="menu-item-desc">Tonno rosso, mela verde e citronette all'arancia.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Tartare di gamberi</span>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <p class="menu-item-desc">Gamberi viola di Gallipoli e granita verde.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Tartare di cavallo</span>
+                            <span class="menu-item-price">16€</span>
+                        </div>
+                        <p class="menu-item-desc">Cavallo, senape in grani al vin cotto, pomodorini confit e capperi.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Fiori di zucchina ripieni</span>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                        <p class="menu-item-desc">Con ricotta, su crema di zucchina e menta.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Parmigiana di melanzana</span>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PRIMI ================= -->
+        <section class="menu-section menu-section-alt" id="primi">
+            <div class="menu-section-inner">
+                <h3 class="menu-badge">Primi</h3>
+
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Linguine con pescato del giorno</span>
+                            <span class="menu-item-price">20€</span>
+                        </div>
+                        <p class="menu-item-desc">Linguine P. Cavalieri con polpo alla luciana / pesce secondo disponibilità.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Linguine finocchietto e gamberi</span>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <p class="menu-item-desc">Linguine Benedetto Cavalieri con aglio, peperoncino, olio al finocchietto e tartare di gamberi viola.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Orecchiette e rape</span>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <p class="menu-item-desc">Orecchiette fatte a mano con rape e stracciatella, pane croccante aromatizzato.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Ciciri e tria</span>
+                            <span class="menu-item-price">13€</span>
+                        </div>
+                        <p class="menu-item-desc">Pasta fatta a mano con ceci.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Fave e cicorie</span>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                        <p class="menu-item-desc">Purè di fave bianche e cicorie.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SECONDI ================= -->
+        <section class="menu-section" id="secondi">
+            <div class="menu-section-inner">
+                <h3 class="menu-badge">Secondi</h3>
+
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Pezzetti di cavallo</span>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <p class="menu-item-desc">Pezzetti di cavallo con sugo di pomodoro.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Bombette</span>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <p class="menu-item-desc">Involtini di carne di suino ripiene e contorno di peperoni grigliati.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Cotonno</span>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <p class="menu-item-desc">Tonno rosso in panatura croccante con salsa yogurt alle erbe, cocomero, sedano e pomodorini.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Polpo scottato</span>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <p class="menu-item-desc">Con crema di zucchina e menta e pomodorini.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Gamberi viola al sale</span>
+                            <span class="menu-item-price">22€</span>
+                        </div>
+                        <p class="menu-item-desc">Gamberi viola, sale grosso e olio EVO.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Melanzana ripiena</span>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                        <p class="menu-item-desc">Melanzana, pomodorini, stracciatella, basilico e tarallo sbriciolato.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTORNI ================= -->
+        <section class="menu-section menu-section-alt" id="contorni">
+            <div class="menu-section-inner">
+                <h3 class="menu-badge">Contorni</h3>
+
+                <div class="menu-grid menu-grid-compact">
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Patatine fritte</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Verdure grigliate</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Insalata mista</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= DESSERT ================= -->
+        <section class="menu-section" id="dessert">
+            <div class="menu-section-inner">
+                <h3 class="menu-badge">Dessert</h3>
+
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Tiramisù classico</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Tiramisù salentino</span>
+                            <span class="menu-item-price">7€</span>
+                        </div>
+                        <p class="menu-item-desc">Con mustazzolo e cupeta.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Spumone</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                        <p class="menu-item-desc">Gelato artigianale con meringa e pan di spagna.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Tartufone</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-head">
+                            <span class="menu-item-name">Dolce della casa</span>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                        <p class="menu-item-desc">Torta con crema di ricotta e marmellata di stagione.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= INFO / ALLERGENI ================= -->
+        <section class="menu-info" id="info">
+            <div class="menu-info-inner">
+                <p class="menu-coperto">Coperto: <strong>2,50€</strong></p>
+
+                <h4 class="menu-info-title">Legenda allergeni</h4>
+                <ul class="allergen-list">
+                    <li><span class="allergen-num">1</span> Crostacei</li>
+                    <li><span class="allergen-num">2</span> Uova</li>
+                    <li><span class="allergen-num">3</span> Latte</li>
+                    <li><span class="allergen-num">4</span> Sedano</li>
+                    <li><span class="allergen-num">5</span> Senape</li>
+                    <li><span class="allergen-num">6</span> Molluschi</li>
+                    <li><span class="allergen-num">7</span> Glutine</li>
+                    <li><span class="allergen-num">8</span> Solfiti</li>
+                    <li><span class="allergen-num">9</span> Arachidi</li>
+                    <li><span class="allergen-num">10</span> Soia</li>
+                    <li><span class="allergen-num">11</span> Frutta a guscio</li>
+                    <li><span class="allergen-num">12</span> Sesamo</li>
+                    <li><span class="allergen-num">13</span> Fave</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" id="backToTop" aria-label="Torna su">&#9650;</button>
+
+    <footer class="main-footer">
+        <p>© Copyright 2026 | Murusanza | Tutti i diritti riservati</p>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
+
